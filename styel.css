@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.hiro-image{
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+.hiro-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.name{
+    font-family: fantasy;
+    font-size: 50px;
+    color:burlywood;
+    margin-top:300px;
+}
+.hiro-image p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(246, 233, 209);
+    margin: 10px;
+
+}
+.hiro-image button{
+    background-color:rgb(12, 12, 12) ;
+    color: rgb(246, 224, 102);
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.heder-text{
+    position: relative;
+    height: 90px;
+    background-color:rgb(22, 20, 17);
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.nav-heder{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 20px;
+}
+.nav-heder ul{
+    display: flex;
+    gap: 50px;
+    list-style: none; 
+    margin-top: 50px;
+}
+.nav-heder ul li a{
+    text-decoration: none;
+    color: rgb(240, 237, 237);
+}
+.heder-text h1{
+    font-size: 35px;
+    color:rgb(246, 237, 237);
+    margin-top: 10px;
+
+}
+.man{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image-rom h2{
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    font-size: 35px;
+}
+.text-image-rome{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    
+
+}
+.text-image-rome img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+.image-content{
+    border: 2px solid rgb(244, 239, 229);
+    border-radius: 8px;
+    padding: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.image-content h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+.image-content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foots{
+    background-color: antiquewhite;
+
+}
+.foots h2{
+    font-size: 30px;
+}
+.foot-image{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.foot-content{
+
+     border: 2px solid rgb(244, 239, 229);
+    border-radius: 8px;
+    padding: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.foot-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+.container{
+  display: flex;
+  align-items: center; /
+  gap: 20px;
+  background-color: whitesmoke;
+}
+
+.container img {
+  width:50% ; 
+  border-radius: 10px;
+  margin-right: 50px;
+}
+.tixt-side{
+    width: 40%; 
+  line-height: 1.6;
+  color:black;
+  margin-left: 50px;
+}
+.tixt-side h3{
+    color:rgb(225, 135, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+.s-our-galler{
+    background-color: rgb(243, 247, 247);
+}
+.our-galler{
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+
+}
+.our-gallers img{
+    width:200px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+.s-our-galler h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+.our-galler{
+ display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.comments{
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+
+}
+.text-comment{
+    border: 2px solid rgb(244, 239, 229);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.text-comment img{
+     width:200px;
+    height: 200px;
+    border-radius:50%;
+}
+img:hover{
+    transform: scale(1.1);
+}
+ .comment h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+ }
+ .text-comment h3{
+    font-size: 20px;
+
+ }
+ .careers{
+    background-color: rgb(243, 247, 247);
+    padding: 20px;
+    border: 2px solid burlywood;
+    text-align: center;
+    margin: 20px;
+
+ }
+ .careers h2{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+ }
+ .careers p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+ }
+ .careers ul{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .careers button{
+    border: none;
+    width: 90px;
+    height: 45px;
+    background-color: rgb(246, 224, 102);
+    animation:x 1s 1s infinite ;
+    border-radius: 30px;
+    margin-left: 40px;
+ }
+ @keyframes x{
+    from{
+
+    }
+    to{
+        color: blanchedalmond;
+        background-color: rgb(239, 167, 167);
+    }
+ }
+ .contact{
+    background-color:white;
+    margin: 10px 25%;
+ }
+ .contact-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+
+ }
+
+ .contact-info a {
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .contact-info p{
+    text-align: center;
+ }
+ .contact-info a:hover{
+    text-decoration: underline;
+ }
+ .contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 10%;
+ }
+ .contact-form input, .contact-form textarea{
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+ }
+ .contact-form button{
+    background-color: rgb(246, 233, 209);
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .contact-form button:hover{
+    background-color: rgb(254, 237, 141);
+    color: white;
+ }
+ .store-locator {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #f3dada;
+    color: #fff;
+}
+
+.store-locator h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.store-locator p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.map-container {
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.footer {
+    background: linear-gradient(to top, #000, #1a1a1a);
+    color: #d4af37; 
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.footer p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #d4af37;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+
+}

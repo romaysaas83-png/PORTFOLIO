@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+            h1{
+                text-align: center;
+                background-color: rgb(242, 216, 182);
+                color: black;
+                padding: 15px;
+                border-radius: 10px;
+            }
+            li{
+                background-color: white;
+                margin: 15px;
+                padding: 20px;
+                border: 1px solid bisque;
+                border-radius: 8px;
+                font-size: 16px;
+            }
+            li:hover{
+                background-color: wheat;
+
+            }
+            .contakt{
+                margin-top: 40px;
+                padding: 20px;
+                background-color: rgb(242, 216, 182);
+                border: 2px solid bisque;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0 0 10px black;
+            }
+            .contakt input{
+                padding: 10px;
+                font-size: 16px;
+                width: 80%;
+                margin-bottom: 15px;
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+            .contakt button{
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: black;
+                color: wheat;
+                border-radius: 5px;
+            }
+            .contakt button:hover{
+                background-color: gray;
+            }
+            .result{
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: bold;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+        <h1>👑Khufu's Restaueant menu</h1>
+       <h2>🥩 Main Dishes</h2>
+       <ul>
+        <li> Mixed Grill-180 EGp</li>
+        <li>Kofta- 120 EGp</li>
+        <li>Grilled Chicken-140 EGp</li>
+        <li>Shish Tawook- 130 EGp</li>
+        <li>Koshari- 60 EGp</li>
+       </ul>
+       <h2>🍔Sandwiches</h2> 
+       <ul>
+        <li> Chicken Shawarma- 60 EGp</li>
+        <li> meat Shawarma- 65 EGp</li>
+        <li>Crispy Chicken- 55 EGp</li>
+        <li>Kofta Sandwich- 50 EGp</li>
+       </ul>
+       <h2>🥗 Salads</h2>
+       <ul>
+        <li> Tahini Salad- 20 EGp</li>
+        <li>Green Salad - 25 EGp</li>
+        <li>Baba Ganoush- 30 EGp</li>
+       </ul>
+       <h2>🍟 Sides</h2>
+       <ul>
+        <li> french fries- 30 EGp</li>
+        <li>Rice- 25 EGp</li>
+        <li>Bread- 15 EGp</li>
+       </ul>
+       <h2>🥤Drinks</h2>
+       <ul>
+        <li>Soft Drinks- 20 EGp</li>
+        <li>fresh Juice-35 EGp</li>
+        <li>water- 10 EGp</li>
+       </ul>
+       <h2>🍰 Desserts</h2>
+       <ul>
+        <li> Basbousa- 50 EGp</li>
+        <li>Kunafa- 30 EGp</li>
+        <li>Rice Pudding- 20 EGp</li>
+       </ul>
+       <div class="contakt">
+        <h2>price Calculator(with 15% tax)</h2>
+        <input type="number" id="price"placeholder="Enter item price">
+        <br>
+        <button onclick="calculatePrice()">Calculate Price</button>
+        <div class="result" id="result"></div>
+       </div>
+       <script>
+        function calculatePrice(){
+            let price =Document.getElementById("price").Value;
+            let totalprice = price * 1.15;
+            Document.getElementById("result").innerHtml ="total with tax" +total + "EGp";
+        }
+       </script>
+       
+</body>
+</html>
